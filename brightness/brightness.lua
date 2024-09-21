@@ -189,7 +189,7 @@ end
 
 function bcontrol:set_text(value)
     local brightness = math.floor(0.5 + value)
-    self.widget:set_text(string.format(" [%3d] ", brightness))
+    self.widget:set_text(string.format("   [%3d] ", brightness))
 end
 
 function bcontrol:update(opt_value)
